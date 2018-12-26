@@ -1,0 +1,28 @@
+@font-face{
+    font-family: "mtavruli"; /* განვსაზღვრეთ ფონტის სახელი */
+    src: url(../fonts/bpg_nino_mtavruli_normal.eot); /* მივუთითთ ფონტის მისამართი eot გაფართოების ფონტისთვის (Internet Explorer-ისთვის) */
+    src: url(../fonts/BPGNinoMtavruli.woff) format("woff"), url(../fonts/BPGNinoMtavruli.ttf) format("truetype"); /* მივუთითეთ ფონტების მისამართები სხვადასხვა ფორმატის ფონტებისთვის სხვადასხვა ბრაუზერებისთვი */
+    unicode-range: 10A0— 10FF; /* მივუთითეთ ფონტის მოქმედების დიაპაზონის - მხოლოდ ქართული სიმბოლოებისთვის */
+}
+@font-face{
+    font-family: "mtavruli"; /* განვსაზღვრეთ ფონტის სახელი */
+    src: url(../fonts/Comfortaa-Regular.ttf); /* მივუთითეთ ფონტის მისამართი ttf ფონტისთვის */
+    unicode-range: 0020— 007F; /*მივუთითეთ ფონტის მოქმედების დიაპაზონი - ლათინური სიმბოლოებისთვის*/
+}
+@font-face{
+    font-family: "medium"; /* განვსაზღვრეთ ფონტის სახელი */
+    src: url(../fonts/BPGNinoMedium.eot); /* მივუთითთ ფონტის მისამართი eot გაფართოების ფონტისთვის (Internet Explorer-ისთვის) */
+    src: url(../fonts/BPGNinoMedium.woff) format("woff"), url(../fonts/BPGNinoMedium.ttf) format("truetype"); /* მივუთითეთ ფონტების მისამართები სხვადასხვა ფორმატის ფონტებისთვის სხვადასხვა ბრაუზერებისთვი */
+    unicode-range: 10A0— 10FF; /* მივუთითეთ ფონტის მოქმედების დიაპაზონის - მხოლოდ ქართული სიმბოლოებისთვის */
+}
+@font-face{
+    font-family: "medium"; /* განვსაზღვრეთ ფონტის სახელი */
+    src: url(../fonts/Comfortaa-Regular.ttf); /* მივუთითეთ ფონტის მისამართი ttf ფონტისთვის */
+    unicode-range: 0020— 007F; /*მივუთითეთ ფონტის მოქმედების დიაპაზონი - ლათინური სიმბოლოებისთვის*/ 
+}
+h1, h2{
+    font-family: "mtavruli"; /* სელექტორისთვის განვსაზღვერთ ფონტი */
+}
+p{
+    font-family: "medium"; /* სელექტორისთვის განვსაზღვერთ ფონტი */
+}

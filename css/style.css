@@ -1,0 +1,87 @@
+@font-face{
+	font-family: "mtavruli";
+	src: url(../fonts/bpg_nino_mtavruli_normal.eot);
+	src: url(../fonts/BPGNinoMtavruli.woff) format("woff"), url(../fonts/BPGNinoMtavruli.ttf) format("truetype");
+	unicode-range: 10A0— 10FF;
+}
+@font-face{
+	font-family: "mtavruli";
+	src: url(../fonts/Comfortaa-Regular.ttf);
+	unicode-range: 0020— 007F;
+	
+}
+@font-face{
+	font-family: "medium";
+	src: url(../fonts/BPGNinoMedium.eot);
+	src: url(../fonts/BPGNinoMedium.woff) format("woff"), url(../fonts/BPGNinoMedium.ttf) format("truetype");
+	unicode-range: 10A0— 10FF;
+}
+@font-face{
+	font-family: "medium";
+	src: url(../fonts/Comfortaa-Regular.ttf);
+	unicode-range: 0020— 007F;
+}
+h1, h2, h3{
+	font-family: "mtavruli";
+	text-align: center;
+	padding: 0 20px;
+}
+p{
+	font-family: "medium";
+}
+h1, h2, p{
+	width: 100%;
+}
+
+body{
+	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+}
+div{
+	width: 25%;
+	height: 120px;
+}
+.white{
+	background-color: white;
+
+}
+.red{
+	background-color: red;
+
+}
+.grey{
+	background-color: grey;
+}
+.green{
+	background-color: green;
+}
+@media only screen and (max-width: 720px) {
+	body {
+		background-color: green;
+	}
+	h1 {
+		color: white;
+	}
+	div{
+		width: 50%;
+		height: 180px;
+	}
+	div:nth-of-type(3){
+		width:100%; 
+	}
+}
+@media only screen and (max-width: 480px) {
+	body {
+		background-color: violet;
+	}
+	h1 {
+		color: green;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	div{
+		width: 100%;
+	}
+}
